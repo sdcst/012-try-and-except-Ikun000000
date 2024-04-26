@@ -19,3 +19,9 @@ The reciprocal of 3 is 0.3333333333333333
 Enter a number: 4
 The reciprocal of 4 is 0.25
 """
+number = input("Please enter in an integer value")
+try:
+    number = int(number)
+    print(1/number)
+except: 
+    print("Error")
